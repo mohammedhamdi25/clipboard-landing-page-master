@@ -1,0 +1,227 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin:0;
+}
+body{
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+h1{
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+  margin-bottom: 15px;
+}
+p{
+  color:hsl(201, 11%, 66%);
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.container header{
+  min-width: 100%;
+  background-image: url(images/bg-header-desktop.png); 
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:50px ;
+  height: 600px;
+  margin-bottom: 70px;
+
+}
+header > div{
+  min-width: 100%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+header > div h1,
+header > div p{
+  width: 100%;
+  text-align:center ;
+  
+}
+header > div p{
+  padding: 0 400px;
+}
+.ios,
+.mac{
+  all: unset;
+  padding: 15px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin-right: 10px;
+  width: 150px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ios{
+  background-color:hsl(171, 66%, 44%) ;
+  color: white;
+}
+.ios:hover{
+  background-color: hsl(171, 77%, 54%);
+}
+.mac{
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+}
+.mac:hover{
+  background-color: hsl(233, 100%, 73%);
+}
+section{
+  display: flex;
+  flex-wrap: wrap;
+}
+section > div{
+  width: 100%;
+  margin-bottom: 100px;
+}
+/* start topic1 */
+section .topic1 {
+  padding:  0 400px;
+}
+/* end topic1 */
+
+/* start topic2 */
+section .topic2 {
+  display: flex;
+  justify-content: space-between;
+}
+section .topic2 > div {
+  width: calc(50% - 40px);
+}
+section .topic2 > :nth-child(1){
+  transform: translate(-40px,0);
+  -webkit-transform: translate(-40px,0);
+  -moz-transform: translate(-40px,0);
+  -ms-transform: translate(-40px,0);
+  -o-transform: translate(-40px,0);
+}
+section .topic2 > :nth-child(2){
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 20px 250px 70px 30px;
+}
+section .topic2 > :nth-child(2) h1,
+section .topic2 > :nth-child(2) p{ 
+  text-align: start;
+}
+/* end topic2 */
+
+/* start topic3 */
+section .topic3{
+  padding: 0 400px;
+}
+/* end topic3 */
+
+/* start topic4 */
+section .topic4{
+  display: flex;
+  justify-content: center;
+}
+/* end topic4 */
+
+section .box-info{
+  display: flex;
+  justify-content:space-between ;
+  width: 100%;
+  }
+section .box-info > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  width: calc(33%);
+  height: 150px;
+  padding: 0 50px;
+}
+section .social{
+  margin: 150px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.clip-board{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 400px;
+}
+.clip-board > div{
+  width: 100%;
+  margin-bottom: 40px;
+}
+.clip-board > :nth-child(2){
+  display: flex;
+  justify-content: center;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(197, 16%, 92%);
+  width: 100%;
+  padding: 20px 150px 20px 300px;
+}
+
+footer > :nth-child(1){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+footer .logo{
+  width: 10%;
+}
+footer .contact{
+  display: flex;
+  flex-direction: column;
+  height: 116px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width:60% ;
+}
+footer .contact > div{
+  height: 50%;
+  display: flex;
+  min-width: 140px;
+  align-items: center;
+  
+}
+footer .contact > div:hover{
+  color: hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+
+footer .media{
+  display: flex;
+  width: 10%;
+}
+footer .media > div{
+  margin-right: 20px;
+  min-width: 24px;
+  cursor: pointer;
+  fill:#4C545C;
+}
+footer .media > div:hover{
+  fill:hsl(171, 66%, 44%) ;
+}
+
+
+
